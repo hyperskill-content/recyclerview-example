@@ -73,6 +73,7 @@ class MainActivity : AppCompatActivity() {
         swipe2refresh.isEnabled = true
 
         recyclerView.layoutManager = LinearLayoutManager(this)
+        recyclerView.setPadding(0, 0, 0, 0)
 
         val bank = Bank()
         val adapter = TransactionsAdapter(bank.generateTransactions().withDates())
