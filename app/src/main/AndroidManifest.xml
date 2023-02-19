@@ -8,7 +8,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:hardwareAccelerated="true"
-        android:theme="@style/Theme.HS">
+        android:theme="@style/Theme.HSRV">
         <activity
             android:name=".MainActivity"
             android:exported="true">
